@@ -498,3 +498,39 @@ LOGIN FORM STYLES
     color: #fff;
     text-shadow: none;
 }
+
+/* banderas */
+#cont-icons{
+    position: fixed;
+    top:30%;
+    right: 0;
+    display: inline-table;
+    z-index:99999999999;
+}
+#cont-icons a{
+    right: 0px;
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+    font-weight: 400;
+    overflow: hidden;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    display: block;
+    background-color: #070707;
+    color: white;
+    text-align: center;
+}
+#cont-icons .facebook:hover{
+    color: white;
+    background-color: #3E5B98;
+}
+#cont-icons .gplus:hover{
+    color: white;
+    background-color: #D93E2D;
+}
+#cont-icons a i{
+    position: relative;
+    top:12px;
+}
